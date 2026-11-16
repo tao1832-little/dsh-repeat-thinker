@@ -1,0 +1,31 @@
+{
+  "name": "@deepseek-ai/dsh-repeat-thinker",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 重复思考检测插件 - 自动打断 AI 的循环思考并提示用户",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "plugin",
+    "repeat-thinker",
+    "loop-detection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs/*",
+    "icon.svg"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "重复思考检测",
+    "description": "自动打断 AI 的循环思考并提示用户，防止陷入重复模式",
+    "detail": "../docs/DETAIL.md"
+  },
+  "name": "重复思考检测",
+  "shortDescription": "🔄 重复思考检测 - 自动打断循环",
+  
+  "status": {
+    "active": "已激活",
+    "inactive": "未激活"
+  },
+  
+  "config": {
+    "enabled": "启用重复思考检测",
+    "threshold": "重复次数阈值",
+    "windowSize": "检测窗口大小",
+    "similarityThreshold": "相似度阈值",
+    "maxInterruptions": "最大打断次数"
+  },
+  
+  "messages": {
+    "interruptDefault": "检测到重复思考模式，已自动打断循环。请尝试重新表述问题或提供新信息。",
+    "interruptPlaceholder": "自定义打断提示消息..."
+  },
+  
+  "stats": {
+    "interruptions": "打断次数",
+    "currentSession": "当前会话"
+  }
+}

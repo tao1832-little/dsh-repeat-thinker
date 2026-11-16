@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <circle cx="32" cy="32" r="31" fill="#f8fafc"/>
+  
+  <!-- Icon: Refresh Loop with Stop -->
+  <g transform="translate(8, 8)">
+    <!-- Outer circle -->
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#e2e8f0" stroke-width="3"/>
+    
+    <!-- Inner circle -->
+    <circle cx="40" cy="40" r="28" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    
+    <!-- Refresh arrows (simplified) -->
+    <path d="M 40 20 A 20 20 0 0 1 53 29" 
+          fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 40 54 A 20 20 0 0 1 27 45" 
+          fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Stop symbol -->
+    <rect x="28" y="52" width="8" height="2" fill="#ef4444"/>
+  </g>
+  
+  <!-- Emoji overlay -->
+  <text x="32" y="36" font-family="system-ui, -apple-system, sans-serif" 
+        font-size="28" text-anchor="middle">🔄</text>
+</svg>
